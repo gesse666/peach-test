@@ -1,0 +1,86 @@
+<!-- Сообщаем браузеру как стоит обрабатывать эту страницу -->
+<!DOCTYPE html>
+<!-- Оболочка документа, указываем язык содержимого -->
+<html lang="ru">
+	<!-- Заголовок страницы, контейнер для других важных данных (не отображается) -->
+	<head>
+		<!-- Заголовок страницы в браузере -->
+		<title>Привет SASS(SCSS)!</title>
+		<!-- Подключаем CSS -->
+		<link rel='stylesheet' href='css/swiper.min.css'>
+		<link rel="stylesheet" href="css/style.css" />
+		
+		<!-- Кодировка страницы -->
+		<meta http-equiv="Content-type" content="text/html;charset=UTF-8" />
+	</head>
+	<!-- Отображаемое тело страницы -->
+	<body>
+		<main class="peach">
+			<section class="about container">  
+				<img class="about_logo" src="img/logo.png" alt="logo"> 
+				<p class="about_description"> 
+				ПМК - динамично развивающаяся компания по продаже медицинского оборудования в России и Казахстане. Мы являемся официальным дилером Philips в России, а также партнерами более 500 компаний-производителей оборудования.
+				</p>
+				<img class="about_photo" src="img/about_photo-1.png" alt="group photo">
+				<img class="about_background" src="img/about_background.png" alt="background">
+				<aside class="info">
+					<a class="info_link">www.permedcom.ru 6+</a>
+					<button class="info_btn">Вакансии</button>
+				</aside>
+			</section>
+		</main>
+		<section class="work container">
+			<img class="work_photo" src="img/work_photo.png" alt="logo">
+			<article class="work_info">
+				<p class="work_text">За 4 года успешной работы наши эксперты поставили более 10 тыс. единиц медицинской техники и инструмента, реализовали несколько сотен комплексных проектов клиник и кабинетов. Мы осуществляем медицинское оснащение на высоком уровне – для врачей, пациентов и бизнеса.</p>
+				<h1 class="work_title">Работа в <span class="work_title--target">Первой Медицинской компании </span></h1>
+				<p class="work_text">- это возможность реализовать свой потенциал и развить свои профессиональные компетенции в команде единомышленников!</p>
+			</article>
+		</section>
+		<section class="features container">
+			<div class="features_item features_item--education">
+				<span class="features_icon icon-0"></span>
+				<h2 class="features_title">Обучение</h2>
+				<p class="features_text">Помимо стандартного введения в должность и знакомства с продуктами «ПМК» дает возможность своим специалистам постоянно расширять свои знания и развивать компетенции за счет привлечения сторонних источников </p>
+			</div>
+			<div class="features_item features_item--office">
+				<span class="features_icon icon-1"></span>
+				<h2 class="features_title">Современный офис&nbsp;в центре города</h2>
+				<p class="features_text">На рабочем месте мы проводим большую часть жизни, поэтому мы сделали наш офис максимально комфортным и удобным</p>
+			</div>
+			<div class="features_item features_item--rest">
+				<span class="features_icon icon-2"></span>
+				<h2 class="features_title">Корпоративный отдых</h2>
+				<p class="features_text">Работать в «ПМК» круто еще и потому, что мы умеем отдыхать – с размахом и душой!</p>
+			</div>
+			<div class="features_item features_item--health">
+				<span class="features_icon icon-3"></span>
+				<h2 class="features_title">Здоровье</h2>
+				<p class="features_text">«ПМК» заботится о своих сотрудниках! У нас действует ДМС не только для команды, но и для членов их семей.</p>
+			</div>
+		</section>
+		<div class='slider container'>
+			<div class='slider__wrap'>
+			  <div class='slide card'>
+				<img src='img/slider_1/1.png' alt='our company' class='card__img'>
+			  </div>
+			  <div class='slide card'>
+				<img src='img/slider_1/2.png' alt='our company' class='card__img'>
+			  </div>
+			  <div class='slide card'>
+				<img src='img/slider_1/3.png' alt='our company' class='card__img'>
+			  </div>
+			  <div class='slide card'>
+				<img src='img/slider_1/4.png' alt='our company' class='card__img'>
+			  </div>
+			  <div class='slide card'>
+				<img src='img/slider_1/5.png' alt='our company' class='card__img'>
+			  </div>
+			</div>
+			<div class='slider-pagination'></div>
+		  </div>
+		<script src='js/swiped-events.min.js'></script>
+		<script src='js/swiper.min.js'></script>
+		<script src='js/slider.js'></script>
+	</body>
+</html>
